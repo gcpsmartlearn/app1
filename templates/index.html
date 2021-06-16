@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+  <title>BIG DATA TRAINING</title>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+  <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+  <h1>We have successfully deployed application.</h1>
+
+  <h2>Kindly follow me on @ymous337 on twitter.</h2>
+  {% for time in times %}
+    <p>{{ time }}</p>
+  {% endfor %}
+
+</body>
+</html>
